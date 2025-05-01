@@ -1,0 +1,66 @@
+/* Generals styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(../images/library.jpg) no-repeat center center/ cover;
+    /* equivalent to 
+    background-image: url(../images/library.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+}
+.container{
+    width: 500px;
+    height:450px;
+}
+.header{
+    font-size: 1rem;
+    border: solid 2px white;
+    padding: 1.5em;
+    width: 80%;
+    margin: 1.5rem auto;
+    border-radius: 5px;
+    background-color: black;
+    color: #ffffff;
+}
+.main-content{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3.125rem 2.5rem;
+    box-shadow: 0 0 10px;
+}
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.main-content .person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+.button-area button{
+    background-color:#2928282a;
+     color: #ffffff;
+    font-size: 1.3rem;
+    padding:1rem 1,2rem ;
+    margin-top: 1.3rem;
+    border-radius: 5px;
+}
+.button-area #new-quote{
+    background-color: #d4cece;
+}
+.button-area button:active{
+background-color: lightblue;
+}
